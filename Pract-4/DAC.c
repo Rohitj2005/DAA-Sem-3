@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void findMaxSubarray(int resources[], int n, int constraint) {
+    
     int max_sum = 0;
     int start_idx = -1, end_idx = -1;
     int left = 0, right = 0, curr_sum = 0;
